@@ -37,10 +37,7 @@
     </header>
 
     <body>
-      <div class="contenedorPrincipal">      
-        <!-- <div class="contenedorLogoPrincipal">
-          <img src="Imagenes/Logo principal.png" alt="Logo" class="logoPrincipal"/>
-        </div> -->
+      <div class="contenedorPrincipal">  
 
           <div class="container">
 
@@ -48,28 +45,33 @@
               <h2 class="tituloContacto">Registro de Usuario</h2>
             </div>
 
-            <form class="formulario">
+            <form class="formulario" action="../index.html">
               <div class="mb-3">
-                <label for="name" class="form-label">Nombre: </label>
-                <input type="text" class="form-control" id="name" required>
+                <label for="nameRegistro" class="form-label">Nombre: </label>
+                <input type="text" class="form-control" id="nameRegistro" maxlength="15" minlength="3" required>
               </div>
 
               <div class="mb-3">
-                <label for="lastname" class="form-label">Apellido:</label>
-                <input type="text" class="form-control" id="lastname" required>
+                <label for="lastnameRegistro" class="form-label">Apellido:</label>
+                <input type="text" class="form-control" id="lastnameRegistro" maxlength="15" minlength="3" required>
               </div>
 
               <div class="mb-3">
-                <label for="email" class="form-label">Email:</label>
-                <input type="email" class="form-control" id="email" required>              
+                <label for="emailRegistro" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="emailRegistro" maxlength="30" minlength="5" required>              
               </div>
 
               <div class="mb-3">
-                <label for="password" class="form-label">Contraseña:</label>
-                <input type="password" class="form-control" id="password" required>              
+                <label for="passRegistro" class="form-label">Contraseña:</label>
+                <input type="password" class="form-control" id="passRegistro" maxlength="12" minlength="5" required>              
               </div>
 
-              <button type="submit" class="btn botonEnviar">Registrarme</button>
+              <div class="mb-3">
+                <label for="passRegistro" class="form-label">Reingreso de contraseña:</label>
+                <input type="password" class="form-control" id="reingresoPassRegistro" maxlength="12" minlength="5" required>              
+              </div>
+
+              <button type="button" class="btn botonEnviar" id="buttonRegistrarme">Registrarme</button>
             </form>          
           </div>
 
@@ -86,5 +88,7 @@
             </div>
           </footer>
       </div>
+
+      <script src="./registro.js"></script>
     </body>
 </html>
