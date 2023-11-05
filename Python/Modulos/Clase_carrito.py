@@ -1,12 +1,17 @@
-from Conexion_creacion_tablas import *
+from python_fullstack import *
 from Clase_usuario import *
 from clase_administrador import *
+from Class_Admin_MENU import *
 from Clase_cliente import *
-from Crud_Productos import *
+from create import *
+from delete import *
+from update import *
+from read import *
+
 
 # Clase para la gestión del carrito
 class Carrito:
-    def __init__(self, db_name="FULLSTACK_DB"):
+    def __init__(self, db_name="intento_menu"):
         self.conn = sqlite3.connect(db_name)
         self.cursor = self.conn.cursor()
 
