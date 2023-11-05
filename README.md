@@ -2,7 +2,7 @@
 
 Bienvenido al repositorio de Amasando Ideas, un proyecto de creaciones en porcelana fría hechas a mano. Este proyecto trata sobre la fabricación de accesorios únicos en forma de comidas. Si te encantan los accesorios originales y los detalles hechos con amor, has llegado al lugar adecuado.
 
-(imagenes/galeria.jpeg)
+Este proyecto es parte de un Trabajo Integrador de la tecnicatura de Desarrollo Web y Aplicaciones Digitales, dictada por el Instituto Superior Politécnico Córdoba.
 
 ## Acerca de Amasando Ideas
 
@@ -19,3 +19,10 @@ Si deseas colaborar con nosotros en proyectos o tienes alguna pregunta, no dudes
 ## Contribuciones
 
 Agradecemos y valoramos las contribuciones de la comunidad. Si eres un desarrollador o diseñador y deseas contribuir a este proyecto, ¡estamos encantados de recibir pull requests y sugerencias!
+
+## Desarrolladores:
+- [Karen Maldonado](https://github.com/KarenMaldonadoM)
+- [Valeria Meneses](https://github.com/valeriameneses013)
+- [Alex Morassut](https://github.com/AlexMorassut1)
+- [Milena Gimenez](https://github.com/MilenaGimenez)
+- [Ignacio Jimenez](https://github.com/IgnacioJimenez1)
