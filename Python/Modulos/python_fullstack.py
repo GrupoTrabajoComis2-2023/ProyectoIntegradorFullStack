@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS Producto (
 
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS Usuario (
-    id_usuario INTEGER PRIMARY KEY AUTOINCREMENT,
+    id_usuario INTEGER PRIMARY KEY AUTOINCREMENT,           
     nombre_usuario TEXT,
     contraseña TEXT,
     id_cliente INTEGER,
@@ -80,3 +80,5 @@ CREATE TABLE IF NOT EXISTS Compra (
 # Commit de la transacción y cierre de la conexión
 conn.commit()
 conn.close()
+
+import sqlite3

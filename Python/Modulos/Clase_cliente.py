@@ -1,10 +1,11 @@
-from Conexion_creacion_tablas import *
+from python_fullstack import *
 from Clase_usuario import *
 from clase_administrador import *
+from Class_Admin_MENU import *
 
 # Clase para la gestión de clientes
 class Cliente(Usuario):
-    def __init__(self, db_name="FULLSTACK_DB"):
+    def __init__(self, db_name="intento_menu"):
         super().__init__(db_name)
 
     def comprar_producto(self, id_producto, cantidad):
