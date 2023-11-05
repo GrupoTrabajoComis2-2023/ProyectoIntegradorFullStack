@@ -145,6 +145,23 @@
   color: white;
 }
 
+.formulario{
+  border: 3px solid #262626;
+  padding: 2rem;
+  border-radius: 20px;
+  margin-bottom: 8rem;
+  background-color: white;
+}
+
+.botonEnviar{
+  background-color: rgb(224, 206, 241);
+}
+
+.botonEnviar:hover{
+  background-color: #262626;
+  color: white;
+}
+
 
 
 /* Responsive - Media Queries */
