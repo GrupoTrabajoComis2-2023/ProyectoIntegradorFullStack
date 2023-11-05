@@ -1,7 +1,7 @@
 import sqlite3
 
 # Conexión a la base de datos
-conn = sqlite3.connect("intento_menu")
+conn = sqlite3.connect("FULLSTACK_DB")
 cursor = conn.cursor()
 
 # Creación de las tablas
